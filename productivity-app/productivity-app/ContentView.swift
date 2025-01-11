@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAnalytics
 
 struct ContentView: View {
     var body: some View {
@@ -16,6 +17,10 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            Analytics.logEvent("app_opened", parameters: nil)
+            print("firebase is fucking working!!!!!!!!!!!!!")
+        }
     }
 }
 
