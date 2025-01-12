@@ -32,26 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B461266F2D311CAB003745F5 /* productivity-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "productivity-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B461267F2D311CAD003745F5 /* productivity-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "productivity-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B46126892D311CAD003745F5 /* productivity-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "productivity-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B461266F2D311CAB003745F5 /* HabitSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B461267F2D311CAD003745F5 /* HabitSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46126892D311CAD003745F5 /* HabitSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49947A32D317985001AAB07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B46126712D311CAB003745F5 /* productivity-app */ = {
+		B46126712D311CAB003745F5 /* HabitSync */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "productivity-app";
+			path = HabitSync;
 			sourceTree = "<group>";
 		};
-		B46126822D311CAD003745F5 /* productivity-appTests */ = {
+		B46126822D311CAD003745F5 /* HabitSyncTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "productivity-appTests";
+			path = HabitSyncTests;
 			sourceTree = "<group>";
 		};
-		B461268C2D311CAD003745F5 /* productivity-appUITests */ = {
+		B461268C2D311CAD003745F5 /* HabitSyncUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "productivity-appUITests";
+			path = HabitSyncUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		B46126662D311CAB003745F5 = {
 			isa = PBXGroup;
 			children = (
-				B46126712D311CAB003745F5 /* productivity-app */,
-				B46126822D311CAD003745F5 /* productivity-appTests */,
-				B461268C2D311CAD003745F5 /* productivity-appUITests */,
+				B46126712D311CAB003745F5 /* HabitSync */,
+				B46126822D311CAD003745F5 /* HabitSyncTests */,
+				B461268C2D311CAD003745F5 /* HabitSyncUITests */,
 				B46126702D311CAB003745F5 /* Products */,
 				B49947A32D317985001AAB07 /* GoogleService-Info.plist */,
 			);
@@ -99,9 +99,9 @@
 		B46126702D311CAB003745F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B461266F2D311CAB003745F5 /* productivity-app.app */,
-				B461267F2D311CAD003745F5 /* productivity-appTests.xctest */,
-				B46126892D311CAD003745F5 /* productivity-appUITests.xctest */,
+				B461266F2D311CAB003745F5 /* HabitSync.app */,
+				B461267F2D311CAD003745F5 /* HabitSyncTests.xctest */,
+				B46126892D311CAD003745F5 /* HabitSyncUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B461266E2D311CAB003745F5 /* productivity-app */ = {
+		B461266E2D311CAB003745F5 /* HabitSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B46126932D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-app" */;
+			buildConfigurationList = B46126932D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSync" */;
 			buildPhases = (
 				B461266B2D311CAB003745F5 /* Sources */,
 				B461266C2D311CAB003745F5 /* Frameworks */,
@@ -122,9 +122,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B46126712D311CAB003745F5 /* productivity-app */,
+				B46126712D311CAB003745F5 /* HabitSync */,
 			);
-			name = "productivity-app";
+			name = HabitSync;
 			packageProductDependencies = (
 				B499479B2D31220F001AAB07 /* FirebaseAnalytics */,
 				B499479D2D31220F001AAB07 /* FirebaseAuth */,
@@ -132,12 +132,12 @@
 				B49947A12D31220F001AAB07 /* FirebaseStorage */,
 			);
 			productName = "productivity-app";
-			productReference = B461266F2D311CAB003745F5 /* productivity-app.app */;
+			productReference = B461266F2D311CAB003745F5 /* HabitSync.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B461267E2D311CAD003745F5 /* productivity-appTests */ = {
+		B461267E2D311CAD003745F5 /* HabitSyncTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B46126962D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-appTests" */;
+			buildConfigurationList = B46126962D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSyncTests" */;
 			buildPhases = (
 				B461267B2D311CAD003745F5 /* Sources */,
 				B461267C2D311CAD003745F5 /* Frameworks */,
@@ -149,18 +149,18 @@
 				B46126812D311CAD003745F5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B46126822D311CAD003745F5 /* productivity-appTests */,
+				B46126822D311CAD003745F5 /* HabitSyncTests */,
 			);
-			name = "productivity-appTests";
+			name = HabitSyncTests;
 			packageProductDependencies = (
 			);
 			productName = "productivity-appTests";
-			productReference = B461267F2D311CAD003745F5 /* productivity-appTests.xctest */;
+			productReference = B461267F2D311CAD003745F5 /* HabitSyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B46126882D311CAD003745F5 /* productivity-appUITests */ = {
+		B46126882D311CAD003745F5 /* HabitSyncUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B46126992D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-appUITests" */;
+			buildConfigurationList = B46126992D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSyncUITests" */;
 			buildPhases = (
 				B46126852D311CAD003745F5 /* Sources */,
 				B46126862D311CAD003745F5 /* Frameworks */,
@@ -172,13 +172,13 @@
 				B461268B2D311CAD003745F5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B461268C2D311CAD003745F5 /* productivity-appUITests */,
+				B461268C2D311CAD003745F5 /* HabitSyncUITests */,
 			);
-			name = "productivity-appUITests";
+			name = HabitSyncUITests;
 			packageProductDependencies = (
 			);
 			productName = "productivity-appUITests";
-			productReference = B46126892D311CAD003745F5 /* productivity-appUITests.xctest */;
+			productReference = B46126892D311CAD003745F5 /* HabitSyncUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B461266A2D311CAB003745F5 /* Build configuration list for PBXProject "productivity-app" */;
+			buildConfigurationList = B461266A2D311CAB003745F5 /* Build configuration list for PBXProject "HabitSync" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B461266E2D311CAB003745F5 /* productivity-app */,
-				B461267E2D311CAD003745F5 /* productivity-appTests */,
-				B46126882D311CAD003745F5 /* productivity-appUITests */,
+				B461266E2D311CAB003745F5 /* HabitSync */,
+				B461267E2D311CAD003745F5 /* HabitSyncTests */,
+				B46126882D311CAD003745F5 /* HabitSyncUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,12 +280,12 @@
 /* Begin PBXTargetDependency section */
 		B46126812D311CAD003745F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B461266E2D311CAB003745F5 /* productivity-app */;
+			target = B461266E2D311CAB003745F5 /* HabitSync */;
 			targetProxy = B46126802D311CAD003745F5 /* PBXContainerItemProxy */;
 		};
 		B461268B2D311CAD003745F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B461266E2D311CAB003745F5 /* productivity-app */;
+			target = B461266E2D311CAB003745F5 /* HabitSync */;
 			targetProxy = B461268A2D311CAD003745F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/productivity-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/productivity-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitSync";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/productivity-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/productivity-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitSync";
 			};
 			name = Release;
 		};
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B461266A2D311CAB003745F5 /* Build configuration list for PBXProject "productivity-app" */ = {
+		B461266A2D311CAB003745F5 /* Build configuration list for PBXProject "HabitSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B46126912D311CAD003745F5 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B46126932D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-app" */ = {
+		B46126932D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B46126942D311CAD003745F5 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B46126962D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-appTests" */ = {
+		B46126962D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B46126972D311CAD003745F5 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B46126992D311CAD003745F5 /* Build configuration list for PBXNativeTarget "productivity-appUITests" */ = {
+		B46126992D311CAD003745F5 /* Build configuration list for PBXNativeTarget "HabitSyncUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B461269A2D311CAD003745F5 /* Debug */,

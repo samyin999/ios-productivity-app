@@ -1,6 +1,6 @@
 //
 //  Habit.swift
-//  productivity-app
+//  HabitSync
 //
 //  Created by Sam Yin on 11/1/2025.
 //

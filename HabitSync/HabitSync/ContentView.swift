@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  productivity-app
+//  HabitSync
 //
 //  Created by Sam Yin on 10/1/2025.
 //

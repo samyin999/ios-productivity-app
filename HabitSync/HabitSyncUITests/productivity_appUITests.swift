@@ -1,13 +1,13 @@
 //
-//  productivity_appUITests.swift
-//  productivity-appUITests
+//  HabitSyncUITests.swift
+//  HabitSyncUITests
 //
 //  Created by Sam Yin on 10/1/2025.
 //
 
 import XCTest
 
-final class productivity_appUITests: XCTestCase {
+final class HabitSyncUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

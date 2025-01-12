@@ -1,13 +1,13 @@
 //
-//  productivity_appUITestsLaunchTests.swift
-//  productivity-appUITests
+//  HabitSyncUITestsLaunchTests.swift
+//  HabitSyncUITests
 //
 //  Created by Sam Yin on 10/1/2025.
 //
 
 import XCTest
 
-final class productivity_appUITestsLaunchTests: XCTestCase {
+final class HabitSyncUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

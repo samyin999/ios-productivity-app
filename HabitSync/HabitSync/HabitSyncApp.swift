@@ -1,6 +1,6 @@
 //
-//  productivity_appApp.swift
-//  productivity-app
+//  HabitSyncApp.swift
+//  HabitSync
 //
 //  Created by Sam Yin on 10/1/2025.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import FirebaseCore
 
 @main
-struct productivity_appApp: App {
+struct HabitSyncApp: App {
     init() {
         FirebaseApp.configure()
     }
